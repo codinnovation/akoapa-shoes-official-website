@@ -1,0 +1,115 @@
+.secondbarContainer {
+  width: 100%;
+  background-color: var(--white-bg);
+  border-bottom: 1px solid #e2e0e0;
+}
+
+.secondbarContent {
+  width: 75%;
+  height: 10vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.companyName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.companyName h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-right: 7px;
+  color: var(---color-1);
+}
+
+.companyName h1:nth-child(1) {
+  color: var(---color-2);
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #e2e0e0;
+  padding-left: 20px;
+  color: #e2e0e0;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.searchContainer button {
+  background-color: var(---color-1);
+  border: none;
+  height: 45px;
+  width: 85px;
+  color: #e2e0e0;
+  border-radius: 5px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.userLogin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.userLogin p {
+  font-family: var(---tag-text);
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.6em;
+}
+
+@media (max-width: 700px) {
+  .secondbarContainer {
+    position: sticky;
+    top: 0;
+  }
+
+  .secondbarContent {
+    width: 90%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .searchContainer {
+    display: none;
+  }
+
+  .companyName h1 {
+    font-size: 1em;
+    margin-right: 5px;
+    color: var(---color-1);
+  }
+
+  .userLogin p {
+    font-size: 0.9em;
+  }
+
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.2em;
+  }
+}
