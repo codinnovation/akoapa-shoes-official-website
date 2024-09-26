@@ -1,0 +1,135 @@
+.heroContainer {
+  width: 100%;
+  background-color: var(--white-bg);
+}
+
+.heroContent {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 1.6em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2.5em;
+}
+
+.mainHero {
+  background-color: var(---color-2);
+  height: 50vh;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainHero .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHero .image img {
+  width: 100%;
+  height: auto;
+}
+
+.mainHeroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainHeroText h1 {
+  font-family: sans-serif;
+  color: #fff;
+}
+.mainHeroText p {
+  margin-top: 2em;
+  font-family: var(---tag-text);
+  color: #e2e0e0;
+}
+
+.mainHeroText button {
+  margin-top: 1em;
+  width: 160px;
+  height: 50px;
+  background-color: var(---color-1);
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.subHero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+}
+
+.subHero .subOne {
+  background-color: var(---color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHero .subTwo {
+  background-color: var(---color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHero .subOne img {
+  width: 50%;
+  height: auto;
+}
+
+.subHero .subTwo img {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .heroContent {
+    width: 90%;
+    margin-top: 1.6em;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+  }
+
+  .mainHero {
+    background-color: var(---color-2);
+    height: 50vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mainHero .image {
+    display: none;
+  }
+
+  .mainHeroText h1 {
+    font-size: 1.3em;
+  }
+  .mainHeroText p {
+    margin-top: 2em;
+    font-size: 1em;
+  }
+
+  .mainHeroText button {
+    margin-top: 1em;
+    width: 160px;
+    height: 55px;
+  }
+
+  .subHero {
+    gap: 0.5em;
+  }
+  .subHero .subOne img {
+    width: 100%;
+  }
+
+  .subHero .subTwo img {
+    width: 100%;
+  }
+}
