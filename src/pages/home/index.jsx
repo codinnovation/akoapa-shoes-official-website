@@ -4,6 +4,7 @@ import SecondBar from "./second-bar";
 import Navigation from "./navigation";
 import Hero from "./hero-section";
 import Category from "./categories";
+import FeatureCategory from "./feature-category";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <Navigation />
         <Hero />
         <Category/>
+        <FeatureCategory/>
       </div>
     </>
   );
