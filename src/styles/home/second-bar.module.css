@@ -2,6 +2,9 @@
   width: 100%;
   background-color: var(--white-bg);
   border-bottom: 1px solid #e2e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 900;
 }
 
 .secondbarContent {

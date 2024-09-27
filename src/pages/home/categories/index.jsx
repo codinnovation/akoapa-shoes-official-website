@@ -24,10 +24,7 @@ function Category() {
             <Image src={HeroImage1} width={900} height={900} alt="hero" />
             <h1>Men Boots</h1>
           </div>
-          <div className={styles.box}>
-            <Image src={HeroImage1} width={900} height={900} alt="hero" />
-            <h1>Men Boots</h1>
-          </div>
+         
         </div>
       </div>
     </>
