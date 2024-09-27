@@ -8,12 +8,12 @@
   margin: 0 auto;
   margin-top: 1.6em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1em;
 }
 
 .categoryContent .box {
-  background-color: #e2e0e0;
+  background-color: #00837412;
   height: 20vh;
   width: 100%;
   display: flex;
