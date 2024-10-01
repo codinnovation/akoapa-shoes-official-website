@@ -43,13 +43,13 @@
   }
 
   .categoryContent .box img {
-	width: 70%;
-	height: auto;
+    width: 70%;
+    height: auto;
   }
-  
+
   .categoryContent .box h1 {
-	font-size: 1em;
-	text-align: center;
-	margin-top: 1em;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
   }
 }
