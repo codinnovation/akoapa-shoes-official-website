@@ -5,6 +5,7 @@ import Navigation from "./navigation";
 import Hero from "./hero-section";
 import Category from "./categories";
 import FeatureCategory from "./feature-category";
+import JoinWhatsApp from "./join-whatsapp";
 
 function Home() {
   return (
@@ -14,8 +15,9 @@ function Home() {
         <SecondBar />
         <Navigation />
         <Hero />
-        <Category/>
-        <FeatureCategory/>
+        <Category />
+        <FeatureCategory />
+        <JoinWhatsApp />
       </div>
     </>
   );
